@@ -1,0 +1,152 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Principal",
+            "request": "launch",
+            "mainClass": "Metodos.Sobrecarga.Principal",
+            "projectName": "Java Dio (1)_6f264cad"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exercicio1",
+            "request": "launch",
+            "mainClass": "Metodos.ExercicioMetodos.OperacoesMatematicas.Exercicio1",
+            "projectName": "Java Dio (1)_6f264cad"
+        },
+        {
+            "type": "java",
+            "name": "Launch e",
+            "request": "launch",
+            "mainClass": "Arrays.e",
+            "projectName": "Java Dio (1)_6f264cad"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exercicio3",
+            "request": "launch",
+            "mainClass": "Arrays.Exercicio3",
+            "projectName": "Java Dio (1)_6f264cad"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exercicio2",
+            "request": "launch",
+            "mainClass": "Arrays.Exercicio2",
+            "projectName": "Java Dio (1)_6f264cad"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exercicio1",
+            "request": "launch",
+            "mainClass": "Arrays.Exercicio1",
+            "projectName": "Java Dio (1)_6f264cad"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exercicio5",
+            "request": "launch",
+            "mainClass": "EstruturaRepeticao.Exercicio5",
+            "projectName": "Java Dio (1)_6f264cad"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exercicio3",
+            "request": "launch",
+            "mainClass": "EstruturaRepeticao.Exercicio3",
+            "projectName": "Java Dio (1)_6f264cad"
+        },
+        {
+            "name": "Java",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ]
+        },
+        {
+            "name": "Java Console App",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ],
+            "externalConsole": true
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Principal",
+            "request": "launch",
+            "mainClass": "Metodos.Principal",
+            "projectName": "Java Dio_aa51730d"
+        },
+        {
+            "type": "java",
+            "name": "Launch Principal(1)",
+            "request": "launch",
+            "mainClass": "TerminalArgumentos.Principal",
+            "projectName": "Java Dio_aa51730d"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sobre",
+            "request": "launch",
+            "mainClass": "TerminalArgumentos.SobreMim.Sobre",
+            "projectName": "Java Dio_aa51730d",
+            "args": [
+                "Caique",
+                "Souza",
+                "25",
+                "1.63"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "Launch Principal(2)",
+            "request": "launch",
+            "mainClass": "TipoVariaveis.Principal.Principal",
+            "projectName": "Java Dio_aa51730d"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "TiposOperadores.Main",
+            "projectName": "Java Dio_aa51730d"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "edu.App",
+            "projectName": "Java Dio_aa51730d"
+        },
+        {
+            "type": "java",
+            "name": "Launch BoletimEstudantil",
+            "request": "launch",
+            "mainClass": "edu.caique.primeirasemana.BoletimEstudantil",
+            "projectName": "Java Dio_aa51730d"
+        }
+    ]
+}
