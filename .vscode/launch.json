@@ -8,6 +8,34 @@
             "type": "java",
             "name": "Launch Principal",
             "request": "launch",
+            "mainClass": "POO.Herancas.Polimorfismo.Exercicio2.Principal",
+            "projectName": "Java Dio 3_cdcfeeaa"
+        },
+        {
+            "type": "java",
+            "name": "Launch Objetos",
+            "request": "launch",
+            "mainClass": "POO.Objetos",
+            "projectName": "Java Dio 3_cdcfeeaa"
+        },
+        {
+            "type": "java",
+            "name": "Launch tes",
+            "request": "launch",
+            "mainClass": "Metodos.Sobrecarga.tes",
+            "projectName": "Java Dio 3_cdcfeeaa"
+        },
+        {
+            "type": "java",
+            "name": "Launch tes",
+            "request": "launch",
+            "mainClass": "Metodos.Sobrecarga.tes",
+            "projectName": "Java Dio (1)_6f264cad"
+        },
+        {
+            "type": "java",
+            "name": "Launch Principal",
+            "request": "launch",
             "mainClass": "Metodos.Sobrecarga.Principal",
             "projectName": "Java Dio (1)_6f264cad"
         },
