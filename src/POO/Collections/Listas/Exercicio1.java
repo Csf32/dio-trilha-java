@@ -1,9 +1,8 @@
 package POO.Collections.Listas;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
-
-import javax.lang.model.type.NoType;
 
 public class Exercicio1 {
 
@@ -42,6 +41,50 @@ public class Exercicio1 {
         for (Double novalista : notas) {
             System.out.println(novalista);
         }
+
+        System.out.println();
+        System.out.println("A posição da nota 5.0 é: " + notas.indexOf(5d) );
+
+        System.out.println();
+        System.out.println("Substituir nota 5.0 pela nota 7.0 " + notas.set(notas.indexOf(5d), 7.0));
+        System.out.println(notas);
+
+        System.out.println();
+        System.out.println("Conferindo se a nota 5.0 está na lista: " + notas.contains(5d));
+
+        System.out.println();
+        System.out.println("Exibir a quarta nota: " + notas.get(4));
+        
+        System.out.println();
+        System.out.println("Exiba a menor nota: " + Collections.min(notas));
+
+        System.out.println();
+        System.out.println("Exiba a maior nota: " + Collections.max(notas));
+        
+        System.out.println();
+        System.out.println("Remova a nota 7: ");
+        notas.remove(7d);
+        System.out.println(notas);
+
+        System.out.println();
+        System.out.println("Remova a nota da posição 1");
+        notas.remove(1);
+        
+        System.out.println();
+        System.out.println("Apagar toda a lista: ");
+        notas.clear();
+        System.out.println(notas);
+
+        System.out.println();
+        System.out.println("Conferir se a lista está vazia" +  notas.isEmpty());
+       
+
+
+
+
+
+
+
 
     }
 

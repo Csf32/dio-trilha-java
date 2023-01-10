@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Exercicio2",
+            "request": "launch",
+            "mainClass": "POO.Collections.Listas.Exercicio2",
+            "projectName": "Java Dio 4_cdcfeeab"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exercicio1",
+            "request": "launch",
+            "mainClass": "POO.Collections.Listas.Exercicio1",
+            "projectName": "Java Dio 3_5bc0e7e0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exercicio1",
+            "request": "launch",
+            "mainClass": "POO.Collections.Listas.Exercicio1",
+            "projectName": "Java Dio 3_cdcfeeaa"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExercicioLista",
+            "request": "launch",
+            "mainClass": "POO.Collections.Listas.ExercicioLista",
+            "projectName": "Java Dio 3_cdcfeeaa"
+        },
+        {
+            "type": "java",
             "name": "Launch Principal",
             "request": "launch",
             "mainClass": "POO.Herancas.Polimorfismo.Exercicio2.Principal",
