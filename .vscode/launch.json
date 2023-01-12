@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Exercicio",
+            "request": "launch",
+            "mainClass": "POO.Map.Exercicio",
+            "projectName": "Java Dio 4_cdcfeeab"
+        },
+        {
+            "type": "java",
+            "name": "Launch Parte1",
+            "request": "launch",
+            "mainClass": "POO.Map.Parte1",
+            "projectName": "Java Dio 4_cdcfeeab"
+        },
+        {
+            "type": "java",
+            "name": "Launch Desafio5",
+            "request": "launch",
+            "mainClass": "POO.Desafios.Desafio5",
+            "projectName": "Java Dio 4_cdcfeeab"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exercicio2",
+            "request": "launch",
+            "mainClass": "POO.Collections.Set.Exercicio2",
+            "projectName": "Java Dio 4_cdcfeeab"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exercicio1",
+            "request": "launch",
+            "mainClass": "POO.Collections.Set.Exercicio1",
+            "projectName": "Java Dio 4_cdcfeeab"
+        },
+        {
+            "type": "java",
             "name": "Launch Exercicio2",
             "request": "launch",
             "mainClass": "POO.Collections.Listas.Exercicio2",
