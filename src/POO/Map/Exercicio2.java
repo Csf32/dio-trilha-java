@@ -17,8 +17,16 @@ public class Exercicio2 {
 				put("Cialdini, Robeorto", new Livro("Armas da Persuação", 250));
 				put("Duhigg, Charles", new Livro("O poder do Hábito", 408));
 				put("Correia, Cristiane", new Livro("Sonho Grande", 256));
+				put("Sir Alex Ferguson", new Livro("My Autobiography", 256));
 			}
 		};
+
+
+
+
+
+
+
 
 	}
 }
