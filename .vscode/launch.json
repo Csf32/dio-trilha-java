@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Exercicio2",
+            "request": "launch",
+            "mainClass": "POO.Map.Exercicio2",
+            "projectName": "JavaDio_e2e0cabd"
+        },
+        {
+            "type": "java",
             "name": "Launch Exercicio",
             "request": "launch",
             "mainClass": "POO.Map.Exercicio",
