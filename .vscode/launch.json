@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch UncheckedException",
+            "request": "launch",
+            "mainClass": "POO.TratamentoExcecoes.UncheckedException",
+            "projectName": "JavaDio_26874d47"
+        },
+        {
+            "type": "java",
             "name": "Launch Exercicio2",
             "request": "launch",
             "mainClass": "POO.Map.Exercicio2",

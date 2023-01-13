@@ -88,7 +88,6 @@ class Gato implements Comparable<Gato> {
 
     @Override
     public int compareTo(Gato gato) {
-        // TODO Auto-generated method stub
 
         return this.getNome().compareToIgnoreCase(gato.getNome());
     }
@@ -99,7 +98,7 @@ class ComparatorIdade implements Comparator<Gato> {
 
     @Override
     public int compare(Gato g1, Gato g2) {
-        // TODO Auto-generated method stub
+
         return Integer.compare(g1.getIdade(), g2.getIdade());
     }
 
@@ -109,7 +108,7 @@ class ComparatorCor implements Comparator<Gato> {
 
     @Override
     public int compare(Gato g1, Gato g2) {
-        // TODO Auto-generated method stub
+
         return g1.getCor().compareToIgnoreCase(g2.getCor());
     }
 
@@ -119,7 +118,6 @@ class ComparatorNomeCorIdade implements Comparator<Gato> {
 
     @Override
     public int compare(Gato g1, Gato g2) {
-        // TODO Auto-generated method stub
 
         int nome = g1.getNome().compareToIgnoreCase(g2.getNome());
         if (nome != 0) {

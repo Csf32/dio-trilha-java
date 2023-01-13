@@ -27,10 +27,10 @@ public class Exercicio2 {
 			}
 		};
 
-		for ( Entry<String, Livro> livros : meusLivros.entrySet()) {
-				System.out.println(livros.getKey() + " - " + livros.getValue().getNome());
+		for (Entry<String, Livro> livros : meusLivros.entrySet()) {
+			System.out.println(livros.getKey() + " - " + livros.getValue().getNome());
 		}
-		
+
 		System.out.println("_______________________________________________");
 		System.out.println("Ordem Inserção:");
 		System.out.println();
@@ -40,7 +40,7 @@ public class Exercicio2 {
 		for (Entry<String, Livro> livros2 : meusLivros2.entrySet()) {
 			System.out.println(livros2.getKey() + " - " + livros2.getValue().getNome());
 		}
-		
+
 		System.out.println("_______________________________________________");
 		System.out.println("Ordem alfabética dos autores:");
 		System.out.println();
@@ -48,7 +48,7 @@ public class Exercicio2 {
 		Map<String, Livro> meusLivros3 = new TreeMap<>(meusLivros);
 
 		for (Entry<String, Livro> livros3 : meusLivros3.entrySet()) {
-			System.out.println(livros3.getKey()  + " " + livros3.getValue().getNome());
+			System.out.println(livros3.getKey() + " " + livros3.getValue().getNome());
 		}
 
 		System.out.println("_______________________________________________");
@@ -58,15 +58,14 @@ public class Exercicio2 {
 		Set<Map.Entry<String, Livro>> meusLivros4 = new TreeSet<>(new ComparatorNome());
 
 		meusLivros4.addAll(meusLivros.entrySet());
-		
+
 		for (Entry<String, Livro> livros4 : meusLivros4) {
-			
-			System.out.println(livros4.getKey()  + " - " + livros4.getValue().getNome());
+
+			System.out.println(livros4.getKey() + " - " + livros4.getValue().getNome());
 		}
 
 	}
 }
-
 
 class Livro {
 	private String nome;
@@ -124,11 +123,10 @@ class Livro {
 }
 
 class ComparatorNome implements Comparator<Map.Entry<String, Livro>> {
-	
+
 	@Override
 	public int compare(Entry<String, Livro> livro1, Entry<String, Livro> livro2) {
-		
+
 		return livro1.getValue().getNome().compareToIgnoreCase(livro2.getValue().getNome());
 	}
 }
-
