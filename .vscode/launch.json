@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch DesafioImoveis",
+            "request": "launch",
+            "mainClass": "DesafioIntermed.DesafioImoveis",
+            "projectName": "JavaDio2_79388d15"
+        },
+        {
+            "type": "java",
+            "name": "Launch DesafioPontos",
+            "request": "launch",
+            "mainClass": "DesafioIntermed.DesafioPontos",
+            "projectName": "JavaDio2_79388d15"
+        },
+        {
+            "type": "java",
+            "name": "Launch CheckedException",
+            "request": "launch",
+            "mainClass": "POO.TratamentoExcecoes.CheckedException.CheckedException",
+            "projectName": "JavaDio2_79388d15"
+        },
+        {
+            "type": "java",
             "name": "Launch UncheckedException",
             "request": "launch",
             "mainClass": "POO.TratamentoExcecoes.UncheckedException",
